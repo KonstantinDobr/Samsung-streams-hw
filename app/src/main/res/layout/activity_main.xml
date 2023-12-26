@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_start"/>
+
+    <Button
+        android:id="@+id/btn_just_do_it"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_just_do_it"/>
+
+    <Button
+        android:id="@+id/btn_get_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_get_data"/>
+
+    <CheckBox
+        android:id="@+id/cb_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cb"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
